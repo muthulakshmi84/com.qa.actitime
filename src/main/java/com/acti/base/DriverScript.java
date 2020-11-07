@@ -7,7 +7,6 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
 
 public class DriverScript {
 	
@@ -24,8 +23,8 @@ public class DriverScript {
 			System.out.println("Unable to load file"+e.getMessage());
 		}
 	}
-	@Test
-	public static void initBrowser() throws Exception{
+	
+	public static void initBrowser(){
 		//the data in config file is stored as key-value pair. If we pass the key to getProperty() method it will return the value
 		String browser=prop.getProperty("browser");
 		if(browser.equalsIgnoreCase("chrome")){
@@ -42,9 +41,7 @@ public class DriverScript {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(3, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-		launchApplication();
-		Thread.sleep(2000);
-		driver.close();
+
 		
 	}
 	public static void launchApplication(){
