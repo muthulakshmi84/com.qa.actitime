@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.acti.base.DriverScript">
+      <class name="com.acti.testcase.TC02_CreateCustomer">
         <methods>
-          <include name="initBrowser"/>
+          <include name="postTest"/>
+          <include name="preTest"/>
+          <include name="testCreateCustomer"/>
         </methods>
-      </class> <!-- com.acti.base.DriverScript -->
+      </class> <!-- com.acti.testcase.TC02_CreateCustomer -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

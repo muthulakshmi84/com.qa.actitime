@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20666" started-at="2020-11-07T01:51:27Z" finished-at="2020-11-07T01:51:48Z">
+  <suite name="Default suite" duration-ms="19689" started-at="2020-11-08T21:12:56Z" finished-at="2020-11-08T21:13:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20666" started-at="2020-11-07T01:51:27Z" finished-at="2020-11-07T01:51:48Z">
+    <test name="Default test" duration-ms="19689" started-at="2020-11-08T21:12:56Z" finished-at="2020-11-08T21:13:15Z">
       <class name="com.acti.testcase.TC01_LoginTest">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.acti.testcase.TC01_LoginTest@4dfa3a9d]" name="preCondition" is-config="true" duration-ms="7570" started-at="2020-11-07T01:51:27Z" finished-at="2020-11-07T01:51:35Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.acti.testcase.TC01_LoginTest@6eebc39e]" name="preCondition" is-config="true" duration-ms="7026" started-at="2020-11-08T21:12:56Z" finished-at="2020-11-08T21:13:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="TestLoginFunction()[pri:0, instance:com.acti.testcase.TC01_LoginTest@4dfa3a9d]" name="TestLoginFunction" duration-ms="3298" started-at="2020-11-07T01:51:35Z" finished-at="2020-11-07T01:51:38Z">
+        <test-method status="PASS" signature="TestLoginFunction()[pri:0, instance:com.acti.testcase.TC01_LoginTest@6eebc39e]" name="TestLoginFunction" duration-ms="3163" started-at="2020-11-08T21:13:03Z" finished-at="2020-11-08T21:13:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestLoginFunction -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.acti.testcase.TC01_LoginTest@4dfa3a9d]" name="postCondition" is-config="true" duration-ms="65" started-at="2020-11-07T01:51:38Z" finished-at="2020-11-07T01:51:38Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.acti.testcase.TC01_LoginTest@6eebc39e]" name="postCondition" is-config="true" duration-ms="63" started-at="2020-11-08T21:13:06Z" finished-at="2020-11-08T21:13:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.acti.testcase.TC01_LoginTest@4dfa3a9d]" name="preCondition" is-config="true" duration-ms="6540" started-at="2020-11-07T01:51:38Z" finished-at="2020-11-07T01:51:45Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.acti.testcase.TC01_LoginTest@6eebc39e]" name="preCondition" is-config="true" duration-ms="6298" started-at="2020-11-08T21:13:06Z" finished-at="2020-11-08T21:13:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="testVerifyLogo()[pri:0, instance:com.acti.testcase.TC01_LoginTest@4dfa3a9d]" name="testVerifyLogo" duration-ms="3086" started-at="2020-11-07T01:51:45Z" finished-at="2020-11-07T01:51:48Z">
+        <test-method status="PASS" signature="testVerifyLogo()[pri:0, instance:com.acti.testcase.TC01_LoginTest@6eebc39e]" name="testVerifyLogo" duration-ms="3057" started-at="2020-11-08T21:13:12Z" finished-at="2020-11-08T21:13:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyLogo -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.acti.testcase.TC01_LoginTest@4dfa3a9d]" name="postCondition" is-config="true" duration-ms="77" started-at="2020-11-07T01:51:48Z" finished-at="2020-11-07T01:51:48Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.acti.testcase.TC01_LoginTest@6eebc39e]" name="postCondition" is-config="true" duration-ms="54" started-at="2020-11-08T21:13:15Z" finished-at="2020-11-08T21:13:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
