@@ -13,6 +13,8 @@ public class TC02_CreateCustomer extends BaseTest{
 		taskListPage.clickNewCustomerItem();
 		taskListPage.enterCustomerName("Muthu");
 		taskListPage.enterDescription("Muthu is a new customer");
+		taskListPage.clickSelectCustomerMenu();
+		taskListPage.selectGalaxyCorporationOption();
 		taskListPage.clickCreateCustomerButton();
 	}
 	
