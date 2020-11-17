@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.acti.testcase.TC03_DeleteCustomer">
+      <class name="com.acti.testcase.TC01_LoginTest">
         <methods>
-          <include name="testDeleteCustomer"/>
+          <include name="testLoginWithMultipleUsers"/>
           <include name="postCondition"/>
           <include name="preCondition"/>
+          <include name="testVerifyLogo"/>
         </methods>
-      </class> <!-- com.acti.testcase.TC03_DeleteCustomer -->
+      </class> <!-- com.acti.testcase.TC01_LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

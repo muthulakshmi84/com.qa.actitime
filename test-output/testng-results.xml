@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36323" started-at="2020-11-16T03:00:58Z" finished-at="2020-11-16T03:01:34Z">
+  <suite name="Default suite" duration-ms="11308" started-at="2020-11-17T03:38:26Z" finished-at="2020-11-17T03:38:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36323" started-at="2020-11-16T03:00:58Z" finished-at="2020-11-16T03:01:34Z">
-      <class name="com.acti.testcase.TC03_DeleteCustomer">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.acti.testcase.TC03_DeleteCustomer@6eebc39e]" name="preCondition" is-config="true" duration-ms="7614" started-at="2020-11-16T03:00:58Z" finished-at="2020-11-16T03:01:05Z">
+    <test name="Default test" duration-ms="11308" started-at="2020-11-17T03:38:26Z" finished-at="2020-11-17T03:38:38Z">
+      <class name="com.acti.testcase.TC02_CreateCustomer">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.acti.testcase.TC02_CreateCustomer@6eebc39e]" name="preCondition" is-config="true" duration-ms="7223" started-at="2020-11-17T03:38:26Z" finished-at="2020-11-17T03:38:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="testDeleteCustomer()[pri:0, instance:com.acti.testcase.TC03_DeleteCustomer@6eebc39e]" name="testDeleteCustomer" duration-ms="28605" started-at="2020-11-16T03:01:05Z" finished-at="2020-11-16T03:01:34Z">
+        <test-method status="PASS" signature="testCreateCustomer()[pri:0, instance:com.acti.testcase.TC02_CreateCustomer@6eebc39e]" name="testCreateCustomer" duration-ms="4016" started-at="2020-11-17T03:38:34Z" finished-at="2020-11-17T03:38:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeleteCustomer -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.acti.testcase.TC03_DeleteCustomer@6eebc39e]" name="postCondition" is-config="true" duration-ms="83" started-at="2020-11-16T03:01:34Z" finished-at="2020-11-16T03:01:34Z">
+        </test-method> <!-- testCreateCustomer -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.acti.testcase.TC02_CreateCustomer@6eebc39e]" name="postCondition" is-config="true" duration-ms="51" started-at="2020-11-17T03:38:38Z" finished-at="2020-11-17T03:38:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- com.acti.testcase.TC03_DeleteCustomer -->
+      </class> <!-- com.acti.testcase.TC02_CreateCustomer -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
