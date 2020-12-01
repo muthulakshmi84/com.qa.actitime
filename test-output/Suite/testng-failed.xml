@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.acti.testcase.TC01_LoginTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="TestLoginFunction"/>
+          <include name="preTest"/>
+          <include name="tearDown"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.acti.testcase.TC01_LoginTest -->
+      <class name="com.acti.testcase.TC03_DeleteCustomer">
+        <methods>
+          <include name="testDeleteCustomer"/>
+          <include name="postCondition"/>
+          <include name="preTest"/>
+          <include name="tearDown"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.acti.testcase.TC03_DeleteCustomer -->
+      <class name="com.acti.testcase.TC02_CreateCustomer">
+        <methods>
+          <include name="testCreateCustomer"/>
+          <include name="postCondition"/>
+          <include name="preTest"/>
+          <include name="tearDown"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.acti.testcase.TC02_CreateCustomer -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

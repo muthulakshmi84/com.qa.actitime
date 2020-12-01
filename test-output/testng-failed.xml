@@ -7,6 +7,8 @@
         <methods>
           <include name="testLoginWithMultipleUsers"/>
           <include name="postCondition"/>
+          <include name="preTest"/>
+          <include name="tearDown"/>
           <include name="preCondition"/>
           <include name="testVerifyLogo"/>
         </methods>

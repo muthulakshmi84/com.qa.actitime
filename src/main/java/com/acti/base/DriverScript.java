@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverScript {
 	
@@ -33,7 +34,7 @@ public class DriverScript {
 		}
 		else if(browser.equalsIgnoreCase("firefox")){
 			System.setProperty("webdriver.gecko.driver", "./src/test/resources/browsers/geckodriver.exe");
-			driver=new ChromeDriver();
+			driver=new FirefoxDriver();
 		}
 		else{
 			System.out.println("Unsupported browser name");
